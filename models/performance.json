@@ -1,0 +1,22 @@
+{
+    "LinearRegression": {
+        "MAE": 0.643,
+        "RMSE": 0.873,
+        "R\u00b2 Score": 0.305
+    },
+    "RandomForest": {
+        "MAE": 0.513,
+        "RMSE": 0.718,
+        "R\u00b2 Score": 0.53
+    },
+    "GradientBoosting": {
+        "MAE": 0.52,
+        "RMSE": 0.73,
+        "R\u00b2 Score": 0.514
+    },
+    "XGBoost": {
+        "MAE": 0.522,
+        "RMSE": 0.749,
+        "R\u00b2 Score": 0.488
+    }
+}
