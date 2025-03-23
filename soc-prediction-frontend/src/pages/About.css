@@ -1,0 +1,90 @@
+.about {
+  text-align: center;
+  margin: 100px auto;
+  max-width: 900px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about:hover {
+  transform: scale(1.02);
+}
+
+/* Heading */
+.about h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 0px 2px 10px rgba(0, 255, 150, 0.8);
+}
+
+/* Team Container */
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+/* Member Card */
+.member {
+  background: linear-gradient(135deg, #00cc99, #0099ff);
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.member:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Profile Image */
+.member img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 10px;
+}
+
+/* Name */
+.member h3 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Role */
+.member p {
+  color: #f0f0f0;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Social Media Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
